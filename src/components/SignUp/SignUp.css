@@ -1,0 +1,65 @@
+.signup-container{
+    padding:3em;
+    background:rgb(238, 236, 236);
+}
+.flex-container, .signup-container,.flex-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-container,.flex-item{
+    flex-direction: column;
+}
+.signup-container h1{
+    color:#666;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.signup-container p{
+    font-size: .9rem;
+    margin-bottom:5em;
+}
+.flex-container{
+    width: 60%;
+}
+.flex-item{
+    background:#fff;
+    margin:.5em;
+    height: 220px;
+    width: 220px;
+    padding:1em;
+    border-radius: 10px;
+    box-shadow: 0 12px 22px 2px rgba(0,0,0,.1);
+}
+.flex-item img{
+    margin-top:1em;
+width: 75px;
+height: 50px;
+}
+.flex-item p{
+    margin:0.5em 0;
+color: #323a44;
+
+}
+.flex-item h2{
+    text-transform: uppercase;
+    font-size: .8rem;
+    margin:1em 0;
+color: #323a44;
+
+
+}
+.signup-container button{
+    border: 1px solid #666;
+text-transform: uppercase;
+color: #323a44;
+border-radius: 3px;
+padding:1em 5em;
+cursor: pointer;
+margin-top:2em;
+font-family: "Open Sans",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif !important;
+
+}
+.signup-container button:hover{
+    border-color: #70ad4d;
+}

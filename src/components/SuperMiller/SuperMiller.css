@@ -1,0 +1,113 @@
+.supermiller-container{
+    width: 100%;
+    background:#f0f1f1;
+    padding:2em 0;
+}
+.supermiller-bg{
+    background-image: url("https://www.zoomcar.com/build/img/supermilers_bg.ce8bf185500c5dd96a4c1034b89e6e0c.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 73%;
+    color:white;
+    position: relative;
+}
+.supermiller-bg div:first-child{
+    z-index: 11;
+}
+.supermiller-bg::after{
+    content:'';
+    background-color: rgba(0,0,0,.7);
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right:0;
+    top:0;
+    bottom:0;
+
+
+}
+.supermiller-fg h1{
+    margin: 0;
+}
+.supermiller-fg *{
+margin:.5em 0;
+}
+.supermiller-fg h1{
+text-transform: uppercase;
+font-size: 1.5rem;
+}
+.supermiller-fg p{
+    font-size: .9rem;
+    color:white;
+}
+.supermiller-fg h2{
+margin-bottom:5em;
+color:#9b9b9b;
+text-transform: uppercase;
+font-size: .9rem;
+font-weight: 100;
+}
+.supermiller-fg h2::before, .supermiller-fg h2::after {
+    position: relative;
+top: -5px;
+margin: 0 10px;
+display: inline-block;
+content: "";
+width: 40px;
+height: 1px;
+background-color: #9b9b9b;
+}
+.supermiller-bg div{
+    margin:0 auto;
+    width: 50%;
+    text-align: center;
+    padding:1em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.z-points{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: #fff;
+    top:0;
+    transform: translate(0,-50%);
+    padding:1em 2em;
+    z-index: 11;
+    border-radius: .125em;
+    text-transform: uppercase;
+}
+.z-points h2{
+font-size: .9rem;
+font-weight: 600;
+}
+.supermiller-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#323a44;
+}
+.supermiller-content div:nth-child(2){
+    margin-top:-4em;
+    width: 12em;
+}
+.supermiller-content button{
+    border:1px solid #666;
+    background-color: transparent;
+    width: 15em;
+    color:#323a44;
+    text-transform: uppercase;
+    padding:0.5em 1em;
+    margin-top:1em;
+}
+.supermiller-content p{
+    font-size: .9rem;
+    margin:1em;
+}

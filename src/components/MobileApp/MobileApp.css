@@ -1,0 +1,31 @@
+.mobileapp-container{
+    background-image: url("https://www.zoomcar.com/build/img/app_bg.daa074b25be54e8df493f629f6a10f61.jpg");
+    height: 600px;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.mobileapp-container div:first-child{
+    width: 70%;
+    margin:0 auto;
+}
+.mobileapp-buttons{
+    display: flex;
+}
+.mobileapp-buttons img{
+    width: 140px;
+    height: 42px;
+    margin:0 1em;
+    border-radius: 10px;
+}
+.mobileapp-buttons img:first-child{
+    margin-left: 0;
+}
+.mobileapp-container h2{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.mobileapp-container p{
+}

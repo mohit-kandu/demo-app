@@ -1,0 +1,35 @@
+.partners-carousel-container{
+    position: relative;
+    height: 150px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+}
+.partners-carousel{
+    width: 50%;
+    margin:0 auto;
+}
+.carousel-partners-img{
+    display: flex;
+    margin:0 auto;
+    height: 150px;
+    align-items:center;
+    justify-content: space-between;
+}
+.carousel-partners-img img{
+    width: 150px;
+    height: 50px;
+}
+
+.next-icon, .prev-icon{
+    position: absolute;
+    font-size: 3rem;
+    color:black;
+}
+.next-icon{
+right:-3em;
+}
+.prev-icon{
+    left: -3em;
+}

@@ -1,0 +1,43 @@
+.testimonial-carousel-container{
+    background-image: url('https://www.zoomcar.com/build/img/testimonial_bg.499d1dd2876b931e9cf0509e3d1884f5.jpg');
+    
+    
+}
+.quote{
+    text-align: center;
+    margin:2em 0;
+    padding-top:5em;
+}
+.testimonial-carousel{
+    width: 50%;
+    height: 350px;
+    margin:0 auto;
+    position: relative;
+}
+.testimonial-message{
+color:#fff;
+font-size: 1.5rem;
+font-weight: 100;
+}
+.testimonial-by{
+color: #70ad4d;
+text-align: center;
+font-size: 1.5rem;
+font-weight: 600;
+margin:1em;
+}
+
+
+span.carousel-control-next-icon, span.carousel-control-prev-icon{
+    width: 350px ;
+    position: absolute;
+    height: 350px;
+    top:-5em;
+}
+span.carousel-control-prev-icon{
+    right:7em;
+}
+span.carousel-control-next-icon{
+
+    right:-18em;
+}

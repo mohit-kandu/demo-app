@@ -1,0 +1,50 @@
+.zoomcar{
+    background:#eee;
+    text-align: center;
+    padding:2em;
+
+}
+.zoomcar h1{
+    margin:0;
+    text-transform: uppercase;
+    color:#666;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.zoomcar p{
+    font-size: .9rem;
+    color:#444;
+}
+.zoomcar-grid-container{
+    width: 50%;
+    margin:0 auto;
+    display: grid;
+    gap:.75em;
+    grid-template-columns: repeat(3,1fr);
+}
+.zoomcar-grid-container img{
+width: 100%;
+height: 100%;
+max-height: 40px;
+max-width: 50px;
+margin-bottom:10px;
+}
+.zoomcar-grid-item h3{
+    margin:0;
+    font-size: 1.25rem;
+    margin-bottom:1em;
+}
+.zoomcar-grid-item p{
+    color:#323a44;
+    font-size: 12px;
+    margin:0;
+}
+.zoomcar-grid-item{
+    background: #fff;
+    padding:1.5em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#70ad4d;
+}

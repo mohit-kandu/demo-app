@@ -1,0 +1,52 @@
+.hero-bg{
+    background-image: url("https://www.zoomcar.com/build/img/intro_bg.59b15d84c75cf310e76cc40155b90dc6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 auto;
+    height: 32rem;
+}
+.hero-contents{
+    /* font-size: 1.5rem; */
+color: #fff;
+font-weight: 600;
+margin:0 auto;
+width: 70%;
+height: 100%;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.hero-contents h1{
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+}
+.hero-contents h6{
+    font-size: 18px;
+    font-weight: 100;
+}
+#down-arrow{
+    vertical-align: middle;
+    font-size: 1.5rem;
+}
+
+.hero-contents h1,.hero-contents h6{
+    margin:0;
+}
+.hero-contents button{
+    margin-top:1.5em;
+    color:#323a44;
+    background:#fff;
+    padding:1em;
+    border:none;
+    border-radius: .3em;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.hero-contents button span{
+    padding-left:10em;
+}
+.right-arrow{
+    font-size: 1.3rem;
+}

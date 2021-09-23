@@ -1,0 +1,33 @@
+.stats-container{
+    display: flex;
+    padding:1em;
+    justify-content: space-between;
+    margin:4em auto;
+}
+.stats-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow:1;
+}
+.stats-img img{
+    width: 80px;
+    height: 80px;
+    
+}
+.stats-img img:last-child{
+    width: 150px;
+}
+.stats-item h2{
+    margin-bottom: 1em;;
+color: #323a44;
+
+}
+.stats-item p{
+    margin:0;
+    line-height: 20px;
+}
+.psmall{
+    font-size: .9em;
+}
